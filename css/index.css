@@ -1,0 +1,36 @@
+@import url(common.css);
+
+/*--------------------------------
+メインビジュアル
+--------------------------------*/
+#mainv {
+  margin-bottom: 29px;
+}
+#mainv img {
+  width: 100%;
+}
+
+/*--------------------------------
+お知らせ
+--------------------------------*/
+/* ページ見出し */
+main section h2 {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-image: url(../images/bg_h2.png);
+  background-repeat: no-repeat;
+}
+main section dl div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #6c5f45;
+  line-height: 1.5;
+  display: flex;
+}
+main section dt {
+  flex-basis: 11em;
+  font-weight: bold;
+}

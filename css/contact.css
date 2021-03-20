@@ -1,0 +1,61 @@
+@import url(common.css);
+
+main p {
+  padding-bottom: 20px;
+}
+
+main ul {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 1.5em;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+main aside {
+  margin-bottom: 3em;
+}
+
+main dl {
+  margin-bottom: 1em;
+}
+main dl div {
+  display: flex;
+  align-items: baseline;
+}
+main dt {
+  flex-basis: 13em;
+}
+main dd {
+  flex: 1
+}
+main dt,
+main dd {
+  padding: 1em;
+}
+main dd label {
+  padding-right: 10px;
+}
+main input[type="text"],
+main input[type="email"],
+main textarea {
+  width: 100%;
+  padding: 0.5em;
+  font: inherit;
+}
+main input[type="radio"] {
+  margin-right: 0.5em;
+}
+main textarea {
+  height: 115px;
+  vertical-align: top;
+}
+main form p {
+  padding-top: 2em;
+  border-top: 1px solid #3a1d0c;
+  text-align: center;
+}
+main form p button {
+  padding: 0.7em 3em;
+  font-size: 1em;
+}

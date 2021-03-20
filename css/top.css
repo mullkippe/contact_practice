@@ -1,0 +1,39 @@
+@import url(common.css);
+
+/*--------------------------------
+メインビジュアル
+--------------------------------*/
+#mainv {
+    margin-bottom: 29px;
+}
+#mainv img {
+    width: 100%;
+}
+
+/*--------------------------------
+お知らせ
+--------------------------------*/
+/* ページ見出し */
+h2 {
+    height: 42px;
+    padding-top: 13px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: url(../images/bg_h2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+section li {
+    padding: 20px 0 20px;
+    border-bottom: 1px dotted #6c5f45;
+    line-height: 1.5;
+}
+section li time {
+    width: 11em;
+    font-weight: bold;
+    display: inline-block;
+}
+#side {
+    padding-top: 0;
+}
